@@ -59,6 +59,7 @@ node_modules/
 # === Configuration secrets ===
 .env
 .env.*
+ca.pem
 
 # === Build / cache ===
 build/

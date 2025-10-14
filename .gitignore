@@ -1,0 +1,66 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+.env
+.venv
+venv/
+ENV/
+env/
+*.sqlite3
+
+# === IDEs / Editors ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === Byte-compiled / Caches ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Logs / temp files ===
+*.log
+*.tmp
+*.bak
+
+# === Docker ===
+/data/
+*.pid
+*.seed
+*.pid.lock
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Virtual environments ===
+venv/
+env/
+ENV/
+.venv/
+
+# === Dependencies ===
+/__pycache__/
+/*.py[cod]
+/*.egg-info
+*.tar.gz
+*.whl
+
+# === Node modules (si alguna vez usas JS para pruebas) ===
+node_modules/
+
+# === Configuration secrets ===
+.env
+.env.*
+
+# === Build / cache ===
+build/
+dist/
+.cache/

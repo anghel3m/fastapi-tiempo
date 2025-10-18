@@ -7,7 +7,7 @@ app = FastAPI(title="API FastAPI Tiempo")
 # 🔹 Configurar CORS
 origins = [
     "http://localhost:4200",          # Angular en desarrollo
-    "https://penalista-tools.netlify.app",  # tu dominio en producción (ajústalo si cambia)
+    "https://penalistools.netlify.app/",  # tu dominio en producción (ajústalo si cambia)
 ]
 
 app.add_middleware(
